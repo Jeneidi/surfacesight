@@ -1,0 +1,9 @@
+.venv
+data/raw
+artifacts
+scripts
+src
+tests
+*.py
+*.txt
+
