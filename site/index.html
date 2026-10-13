@@ -67,7 +67,7 @@
 
     <section class="section band center" id="results" aria-labelledby="results-title"><div class="wrap"><h2 id="results-title" class="h2">Results on photos it never saw while learning</h2>
 <p class="lead">All numbers come from 59 test photos kept aside while the model learned, measured on an ordinary laptop processor.</p>
-<p class="prose">The accuracy score (F1 score) runs from 0% to 100%. It counts both kinds of mistake: letting a defective bottle through, and throwing out a good one. Higher is better.</p>
+<p class="prose">The accuracy score runs from 0% to 100%, and higher is better. It counts both kinds of mistake: letting a defective bottle through, and throwing out a good one.</p>
 <div class="stats"><div class="stat"><b id="metric-finetuned">Loading</b>
 <span>Accuracy score of the bottle-trained model</span></div>
 <div class="stat"><b id="metric-baseline">Loading</b>
@@ -82,7 +82,7 @@
 </section>
 
     <section class="section wrap" id="how" aria-labelledby="how-title"><div class="split"><div><h2 id="how-title" class="h2">How it works</h2>
-<p class="prose">The training code runs once and saves its answers. This page shows those saved answers, so the demo works instantly with no sign-up.</p>
+<p class="prose">The heavy work (teaching the program and testing it) was done once ahead of time. This page shows those saved results, so the demo works instantly with no sign-up.</p>
 </div>
 <ol class="steps"><li><div><b>Collect the photos</b>
 <p>Download 292 labeled bottle photos from a public research collection made for factory-inspection studies.</p>
@@ -97,7 +97,7 @@
 </div>
 </li>
 <li><div><b>Shrink it</b>
-<p>Compress the model so it runs on an ordinary laptop processor, then check it still gives the same answers.</p>
+<p>Shrink the trained program so it runs on an ordinary laptop, then check that it still gives the same answers.</p>
 </div>
 </li>
 <li><div><b>Show the mistakes</b>
